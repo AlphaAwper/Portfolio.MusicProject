@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.CreatePlaylistsController">
+   <children>
+      <HBox layoutX="60.0" layoutY="47.0" prefHeight="706.0" prefWidth="696.0">
+         <children>
+            <VBox prefHeight="674.0" prefWidth="298.0">
+               <children>
+                  <HBox prefHeight="45.0" prefWidth="272.0">
+                     <children>
+                        <Label text="Playlist name :">
+                           <HBox.margin>
+                              <Insets top="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="customName" promptText="Insert name">
+                           <HBox.margin>
+                              <Insets left="15.0" top="12.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <Label text="Playlist ">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ListView fx:id="playList" prefHeight="531.0" prefWidth="255.0">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </ListView>
+                  <Button fx:id="goBackButton" mnemonicParsing="false" onAction="#goBack" text="Back">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="706.0" prefWidth="100.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#removeSelectedSongs" text="&gt;">
+                     <VBox.margin>
+                        <Insets left="35.0" top="200.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#addSelectedSongs" text="&lt;">
+                     <VBox.margin>
+                        <Insets left="35.0" top="35.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="674.0" prefWidth="284.0">
+               <children>
+                  <Label fx:id="errorNames" text="Please make a valid name . Avoid using &lt; and &gt;" visible="false">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Song Database">
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ListView fx:id="songList" prefHeight="531.0" prefWidth="255.0">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </ListView>
+                  <Button mnemonicParsing="false" onAction="#createPlaylist" text="Submit">
+                     <VBox.margin>
+                        <Insets left="200.0" top="15.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Label fx:id="Success" text="Label" visible="false">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

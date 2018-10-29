@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.editSongsController">
+   <children>
+      <HBox layoutX="39.0" layoutY="47.0" prefHeight="706.0" prefWidth="716.0">
+         <children>
+            <VBox prefHeight="672.0" prefWidth="274.0">
+               <children>
+                  <HBox prefHeight="52.0" prefWidth="274.0">
+                     <children>
+                        <Label text="Playlist name :">
+                           <HBox.margin>
+                              <Insets left="15.0" top="15.0" />
+                           </HBox.margin>
+                        </Label>
+                        <ChoiceBox fx:id="currentPlaylists" prefWidth="150.0">
+                           <HBox.margin>
+                              <Insets left="15.0" top="15.0" />
+                           </HBox.margin>
+                        </ChoiceBox>
+                     </children>
+                  </HBox>
+                  <Label text="Existing songs">
+                     <VBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ListView fx:id="playList" prefHeight="531.0" prefWidth="255.0">
+                     <VBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </VBox.margin>
+                  </ListView>
+                  <Button fx:id="goBackButton" mnemonicParsing="false" onAction="#goBack" text="Back">
+                     <VBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="706.0" prefWidth="179.0">
+               <children>
+                  <Button minWidth="150.0" mnemonicParsing="false" onAction="#moveSongUp" prefWidth="150.0" text="Move song up">
+                     <VBox.margin>
+                        <Insets left="15.0" top="200.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#addSelectedSongs" text="&lt;">
+                     <VBox.margin>
+                        <Insets left="75.0" top="45.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#removeSelectedSongs" text="&gt;">
+                     <VBox.margin>
+                        <Insets left="75.0" top="45.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button minWidth="150.0" mnemonicParsing="false" onAction="#moveSongDown" prefWidth="150.0" text="Move song down">
+                     <VBox.margin>
+                        <Insets left="15.0" top="45.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="659.0" prefWidth="255.0">
+               <children>
+                  <HBox prefHeight="69.0" prefWidth="255.0" />
+                  <Label text="Song Database">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <ListView fx:id="songList" prefHeight="538.0" prefWidth="255.0">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </ListView>
+                  <Button fx:id="editButton" disable="true" mnemonicParsing="false" onAction="#createPlaylist" text="Make changes">
+                     <VBox.margin>
+                        <Insets left="125.0" top="15.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Label fx:id="success" text="Label" visible="false">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
