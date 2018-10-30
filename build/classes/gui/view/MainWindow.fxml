@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.MainWindowController">
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.MainWindowController">
    <children>
       <Label layoutX="264.0" layoutY="31.0" prefHeight="78.0" prefWidth="278.0" text="Music Box">
          <font>

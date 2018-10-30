@@ -88,21 +88,27 @@ public class MainWindowController implements Initializable {
         try {
             File file = new File("src/Playlists/AplaylistsName.txt");
             Scanner sc = new Scanner(file);
-            checkLinkToFile();
+           sc.nextLine(); //fixes the weird bug with scanner that doesnt recognise the very first element as < .
+            //TO DO , make a normal database instead of this file
             while (sc.hasNext()) {
                 String characterName = sc.nextLine();
                 String newPlaylist = "";
+                System.out.println("ch :"+characterName);
                 if (characterName.equals("<")) { //start of playlist
                     newPlaylist = sc.nextLine();
+                    System.out.println("1 "+newPlaylist);
                     currentPlaylists.getItems().add(newPlaylist);
                     song.add(newPlaylist);
                 } else if (characterName.equals(">")) { //end of playlist
+                                        System.out.println("2 "+song);
                     playlist.add(song);
                     song = new ArrayList<String>();
                 } else { // songs in the playlist
+                                        System.out.println("3 "+characterName);
                     song.add(characterName);
                 }
             }
+            checkLinkToFile();
         } catch (FileNotFoundException e) {
             System.out.println(e);
         }

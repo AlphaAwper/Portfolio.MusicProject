@@ -1,26 +1,76 @@
+﻿
 <
-Chill
-Chill.mp3
-Dreams.mp3
-Gloomy.mp3
-Fantasy.mp3
->
-<
-Game music
-Amon Amarth Twilight of the Thunder God.mp3
+Battle music
+Amon Amarth - Guardians Of Asgaard.mp3
+Amon Amarth - Twilight Of The Thunder God.mp3
+Blue Stahli - Lakes Of Flame.mp3
+Blue Stahli - Shotgun Senorita (Zardonic remix).mp3
+Blues Saraceno - Devils Got You Beat.mp3
 Brothers of Metal - Prophecy of Ragnarok.mp3
+Cannibal Corpse - Evisceration Plague.mp3
+Cannibal Corpse - Hammer Smashed Face.mp3
+Carpenter Brut - TURBO KILLER (METAL COVER).mp3
+Carpenter Brut - Turbo Killer.mp3
+Celldweller - I Can't Wait (Metal Cover by Paul Udarov).mp3
+Celldweller - Jericho (Circle of Dust Remix).mp3
+Celldweller - Tragedy.mp3
+Dan Terminus - Digital Onslaught.mp3
+DANCE WITH THE DEAD - Kickstart My Heart Remix.mp3
+Disturbed - No More.mp3
+DOOM (2016) OST - BFG Division.mp3
+DOOM (2016) OST - Rip & Tear.mp3
+Gloryhammer - Goblin King from the Darkstorm Galaxy.mp3
 Gloryhammer - Questlords of Inverness.mp3
 Gloryhammer - Rise of The Chaos Wizards.mp3
-GLORYHAMMER - Universe On Fire.mp3
-Gloryhammer-Goblin King from the Darkstorm Galaxy.mp3
+Gloryhammer - The Hollywood Hootsman.mp3
+Gloryhammer - Universe On Fire.mp3
+Guns N' Roses - Welcome To The Jungle.mp3
+Guns N' Roses - Sweet Child O' Mine.mp3
+Guns N' Roses - Knocking on heaven's door.mp3
 Hollywood Undead - Bang Bang.mp3
 Hollywood Undead - Been To Hell.mp3
 Hollywood Undead - Party By Myself.mp3
 Hollywood Undead - Undead.mp3
+Led Zeppelin - All My Love.mp3
+Led Zeppelin - Communication Breakdown.mp3
+Led Zeppelin - Good Times Bad Times.mp3
+Led Zeppelin - Heartbreaker.mp3
+Led Zeppelin - Immigrant Song.mp3
+Led Zeppelin - Kashmir.mp3
+Led Zeppelin - Stairway to Heaven.mp3
+Maximum The Hormone - Lord Frieza Tribute.mp3
+Megadeth - Hangar 18.mp3
+Megadeth - Holy Wars... The Punishment Due.mp3
+Megadeth - Symphony of Destruction.mp3
+Metallica - Orion.mp3
+Metalocalypse - Pickles Rehab Song.mp3
 Mystery Skulls - Hellbent.mp3
+Nirvana - Breed.mp3
+Nirvana - Territorial Pissings.mp3
+Pantera - Domination.mp3
+Pantera - Walk.mp3
+Powerwolf - Army Of The Night.mp3
+Powerwolf - The Sacrament Of Sin.mp3
+Powerwolf - We Drink Your Blood.mp3
+Scandroid - Phoenix.mp3
+Sex Pistols - God Save The Queen.mp3
+Sin Shake Sin - Can't Go To Hell.mp3
+Sin Shake Sin - Trendsetter.mp3
+Slayer - Black Magic.mp3
+Slayer - Raining Blood.mp3
+Slayer - Seasons In The Abyss.mp3
 THE UNGUIDED - Defector DCXVI.mp3
 THE UNGUIDED - Legendary.mp3
-The Unguided - Phoenix Down.mp3
-WAR_HALL - Dead Man Walking.mp3
-Ãsi - Right Wing Death Squad.mp3
+THE UNGUIDED - Phoenix Down (Zardonic Remix).mp3
+THE UNGUIDED - Phoenix Down.mp3
+Urban Country - Gonna Need a Grave.mp3
+Urban Country-Knife and Stone.mp3
+WAR HALL - Dead Man Walking.mp3
+Zardonic - Before The Dawn (ft Celldweller).mp3
+Zardonic - Raise Hell (Original Mix).mp3
+>
+<
+Test
+Abbath - Warriors.mp3
+Amon Amarth - Guardians Of Asgaard.mp3
 >
